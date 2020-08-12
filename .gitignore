@@ -1,0 +1,25 @@
+## aptana/eclipse
+*.project
+*.pydevproject
+## quattor build xml
+quattor/build
+## python
+*.pyc
+*.pyo
+## emacs
+*~
+.#*
+*.orig
+*.bak
+## Various build products
+*.rpm
+*.o
+*.old
+*.DS_Store
+## vim
+.*.swp
+.*.swo
+
+dist/
+build/
+rpmbuild/
