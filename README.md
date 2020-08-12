@@ -31,3 +31,10 @@ singularity plugin compile .
 ```
 
 You need a recent enough for of git for the cloning of the go packages to work.
+
+RPM
+---
+
+There is a spec file included. In principle you can simply run `bdist_rpm.sh` and get a RPM. It's tied to
+main version of singularity. The developer promise to keep plugins working within the same major
+singularity release (3.6.x).
